@@ -10,7 +10,7 @@ body {
     color: white;
 }
 
-.header , .introduction, .content, .movies {
+.header , .introduction, .content, .movies , .quote-part{
     padding: 0px 100px
 }
 
@@ -63,6 +63,10 @@ body {
     align-items: center;
 }
 
+.content p {
+    font-size: 18px;
+}
+
 .movies {
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +86,43 @@ body {
 
 .movie-poster {
     height: 400px;
+}
+
+.quote-part {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0px;
+}
+
+.quote h3 {
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    padding: 8px;
+}
+
+.footer * {
+    margin: 0;
+    color: white;
 }
