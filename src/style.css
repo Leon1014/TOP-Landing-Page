@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+}
+.logo {
+    width: 150px;
+    color: white;
+}
+
+.header , .introduction {
+    padding: 0px 100px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding-bottom: 50px;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.introduction {
+    display: flex;
+    background: #1f2937;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.introduction h1,p {
+    color: white;
+    width: 600px;
+}
+
+.miyazaki-picture {
+    width: 450px;    
+}
